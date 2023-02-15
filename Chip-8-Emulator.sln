@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Chip-8-Emulator", "Chip-8-Emulator.vcxproj", "{052731A1-B551-403A-B953-ABF120D9AB21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{052731A1-B551-403A-B953-ABF120D9AB21}.Debug|x64.ActiveCfg = Debug|x64
+		{052731A1-B551-403A-B953-ABF120D9AB21}.Debug|x64.Build.0 = Debug|x64
+		{052731A1-B551-403A-B953-ABF120D9AB21}.Debug|x86.ActiveCfg = Debug|Win32
+		{052731A1-B551-403A-B953-ABF120D9AB21}.Debug|x86.Build.0 = Debug|Win32
+		{052731A1-B551-403A-B953-ABF120D9AB21}.Release|x64.ActiveCfg = Release|x64
+		{052731A1-B551-403A-B953-ABF120D9AB21}.Release|x64.Build.0 = Release|x64
+		{052731A1-B551-403A-B953-ABF120D9AB21}.Release|x86.ActiveCfg = Release|Win32
+		{052731A1-B551-403A-B953-ABF120D9AB21}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F78D4210-FA1F-44AF-B83F-58BA048E5AF0}
+	EndGlobalSection
+EndGlobal
