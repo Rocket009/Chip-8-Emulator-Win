@@ -159,21 +159,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Desktop\SDLMain.c" />
-    <ClCompile Include="..\..\..\Documents\Chip-8_Emulator\src\decoder.c" />
-    <ClCompile Include="..\..\..\Documents\Chip-8_Emulator\src\intructions.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\Documents\Chip-8_Emulator\include\Chip-8.h" />
-    <ClInclude Include="..\..\..\Documents\Chip-8_Emulator\include\intructions.h" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="..\..\..\Desktop\br8kout.ch8" />
     <None Include="..\..\..\Desktop\c8_test.c8" />
     <None Include="..\..\..\Desktop\flightrunner.ch8" />
     <None Include="..\..\..\Desktop\IBM-Logo.ch8" />
     <None Include="..\..\..\Desktop\octojam2title.ch8" />
     <None Include="..\..\..\Downloads\test_opcode.ch8" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Chip-8.h" />
+    <ClInclude Include="include\intructions.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\decoder.c" />
+    <ClCompile Include="src\intructions.c" />
+    <ClCompile Include="src\SDLMain.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

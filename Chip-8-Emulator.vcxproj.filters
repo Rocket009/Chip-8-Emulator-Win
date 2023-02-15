@@ -15,30 +15,30 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Documents\Chip-8_Emulator\src\intructions.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\Documents\Chip-8_Emulator\src\decoder.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\Desktop\SDLMain.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\Documents\Chip-8_Emulator\include\Chip-8.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Documents\Chip-8_Emulator\include\intructions.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="..\..\..\Desktop\IBM-Logo.ch8" />
     <None Include="..\..\..\Downloads\test_opcode.ch8" />
     <None Include="..\..\..\Desktop\br8kout.ch8" />
     <None Include="..\..\..\Desktop\c8_test.c8" />
     <None Include="..\..\..\Desktop\flightrunner.ch8" />
     <None Include="..\..\..\Desktop\octojam2title.ch8" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Chip-8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\intructions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\decoder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\intructions.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SDLMain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
